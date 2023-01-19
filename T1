@@ -6,7 +6,6 @@ Ram 16,0 GB
 emolevy msi z370 (ms-7b61)
 SSD Samsung 860 EVO 1TB
 
-
 Asennettu debian 
 [ISO]	debian-live-11.6.0-amd64-gnome+nonfree.iso (https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/)
 
@@ -14,7 +13,8 @@ Virtualbox
 Versio 7.0.6 - windows host (https://www.virtualbox.org/wiki/Downloads)
 Virtualbox asennukseen ei muutoksia
 
-New->
+Luodaan uusi virtuaalikone painamalla New->
+Valitut asetukset
 Expert mode
 lisätty nimi
 lisätty reitti ladattuun levyn näköistiedostoon
