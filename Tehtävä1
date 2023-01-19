@@ -1,4 +1,11 @@
+Debian 11 asennus virtuaalikoneelle 19/1/2023
+
 Host Windows10
+Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+Nvidia Geforce RTX 2070 SUpre
+Ram 16,0 GB
+emolevy msi z370 (ms-7b61)
+SSD Samsung 860 EVO 1TB
 
 
 Asennettu debian 
@@ -9,3 +16,22 @@ Versio 7.0.6 - windows host (https://www.virtualbox.org/wiki/Downloads)
 Virtualbox asennukseen ei muutoksia
 
 New->
+Expert mode
+lisätty nimi
+lisätty reitti ladattuun levyn näköistiedostoon
+
+ram muistia 8192 MB
+6cpu prosessoria(virtualisointi päällä järjestelmässä)
+levytilaa 250 GB
+
+Käynnistetty debian, ensimmäisestä valikosta valittu ensimmäinen vaihtoehto
+testattu toimivuus firefoxilla, toimii
+
+Järjestelmän kieli englanti 
+Sijainti Helsinki
+Näppäimistö suomi(winkeys)
+
+Partitions -> erase disk ei muita muutoksia
+
+Käyttäjän perustiedot
+-> Install
