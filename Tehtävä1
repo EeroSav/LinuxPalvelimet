@@ -1,0 +1,11 @@
+Host Windows10
+
+
+Asennettu debian 
+[ISO]	debian-live-11.6.0-amd64-gnome+nonfree.iso (https://cdimage.debian.org/images/unofficial/non-free/images-including-firmware/current-live/amd64/iso-hybrid/)
+
+Virtualbox
+Versio 7.0.6 - windows host (https://www.virtualbox.org/wiki/Downloads)
+Virtualbox asennukseen ei muutoksia
+
+New->
