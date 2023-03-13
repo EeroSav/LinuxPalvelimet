@@ -4,12 +4,14 @@ import re
 picture_files = os.listdir("Pictures")
 mddir = "."
 
-print(picture_files)
-
 for filename in os.listdir(mddir):
+    if filename.endswith(".py"):
+        break
+
     if filename.endswith(".md"):
         md_files = os.path.join(mddir, filename)
-        print(md_files)
+        pic1 = filename[:-3]
+    
 
     #Read the file
     with open(md_files, "r") as f:
@@ -18,4 +20,16 @@ for filename in os.listdir(mddir):
     #find all the pictures with regex
     pattern = r"!\[.*\]\((.*)\)"
     pictures = re.findall(pattern, contents)
-    print(pictures)
+
+    # Loop through picures and rename them
+    for picture in pictures:
+        picname = pic1 + "_" + str(pictures.index(picture)+1)
+        old_name = picture
+        new_name = "Pictures/" + f"{picname}.png"
+        if (old_name != new_name):
+            print("in file: " + filename + ", old name: " + old_name)
+            print("new name: " + new_name)
+
+            os.rename(old_name, new_name)
+            contents = contents.replace(picture, new_name)
+            
